@@ -324,8 +324,14 @@ class _PizzaDetailsState extends State<_PizzaDetails>
                                             return AnimatedBuilder(
                                               animation: _animationController,
                                               builder: (context, _) {
-                                                return _buildIngredientsWidget(
-                                                    deletedIngredient);
+                                                return Padding(
+                                                  padding:
+                                                      const EdgeInsets.fromLTRB(
+                                                          20.0, 12.0, 0.0, 0.0),
+                                                  child:
+                                                      _buildIngredientsWidget(
+                                                          deletedIngredient),
+                                                );
                                               },
                                             );
                                           }),
