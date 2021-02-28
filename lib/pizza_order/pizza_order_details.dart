@@ -29,7 +29,7 @@ class _PizzaOrderDetailsState extends State<PizzaOrderDetails> {
         backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text(
-            'New Orleans Pizza',
+            'Cook Food Demo',
             style: TextStyle(
               color: Colors.cyan,
               fontSize: 24,
